@@ -1,8 +1,8 @@
 package services
 
 import (
-  "github.com/katsun0921/bookstore_items-api/domain/items"
-  "github.com/katsun0921/bookstore_items-api/domain/queries"
+  "github.com/katsun0921/bookstore_items-api/src/domain/items"
+  "github.com/katsun0921/bookstore_items-api/src/domain/queries"
   "github.com/katsun0921/bookstore_utils-go/rest_errors"
 )
 

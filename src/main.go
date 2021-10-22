@@ -1,7 +1,7 @@
 package main
 
 import (
-  "github.com/katsun0921/bookstore_items-api/app"
+  "github.com/katsun0921/bookstore_items-api/src/app"
   "os"
 )
 

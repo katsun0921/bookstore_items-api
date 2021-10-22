@@ -1,7 +1,7 @@
 package queries
 
 import (
-	"github.com/olivere/elastic"
+  "github.com/olivere/elastic"
 )
 
 func (q EsQuery) Build() elastic.Query {

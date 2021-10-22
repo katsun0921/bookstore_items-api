@@ -3,10 +3,10 @@ package items
 type Item struct {
 	Id                string      `json:"id"`
 	Seller            int64       `json:"seller"`
-	Title             string      `json:"title"`
-	Description       Description `json:"description"`
-	Picture           []Picture   `json:"pictures"`
-	Video             string      `json:"video"`
+	Title       string      `json:"title"`
+	Description Description `json:"description"`
+	Picture     []Picture   `json:"pictures"`
+	Video       string      `json:"video"`
 	Price             float32     `json:"price"`
 	AvailableQuantity int         `json:"available_quantity"`
 	SoldQuantity      int         `json:"sold_quantity"`
